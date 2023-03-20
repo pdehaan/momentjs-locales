@@ -1,16 +1,17 @@
 {
   "name": "momentjs-locales",
+  "description": "Checking which locales that Firefox Accounts (FxA) supports that aren't in momentjs.",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start":"node index",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
   "author": "Peter deHaan <peter@deseloper.com>",
-  "license": "MPL-2.0",
   "dependencies": {
     "moment": "^2.29.4"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "license": "MPL-2.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
